@@ -8,7 +8,7 @@ def main():
     os.makedirs(out, exist_ok=True)
     with open(os.path.join(out, "entry.txt"), "w", encoding="utf-8") as f:
         f.write(LINE)
-    print(len(LINE))
+    print(f"LEN={len(LINE)}")
 
 if __name__ == "__main__":
     main()
